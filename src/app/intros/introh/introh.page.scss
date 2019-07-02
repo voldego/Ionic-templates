@@ -1,0 +1,128 @@
+.top-header{
+	font-size: 28px;
+	display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding:10px;
+}
+.main{
+	background-color: white;
+	height: 100vh;
+	width: 100%;
+	
+	&.dark{
+		background-color: #1e2023;
+		.description{
+			
+			ion-icon{
+				color:white;
+			}
+			
+		}
+		.top-header a{
+			    color: white;
+			    font-size: 18px;
+		    text-decoration: none;
+		    font-weight: 700;
+		    }
+	}
+	&.danger{
+		background-color: #f25454;
+		.top-header a{
+			    color: white;
+			    font-size: 18px;
+		    text-decoration: none;
+		    font-weight: 700;
+		    }
+		    .description{
+			
+		    ion-icon{
+			color:white;
+		}
+			} 
+	}
+	&.primary{
+		background-color: #3171e0;
+		.description{
+			
+		    ion-icon{
+			color:white;
+		}
+			} 
+			.top-header a{
+			    color: white;
+			    font-size: 18px;
+		    text-decoration: none;
+		    font-weight: 700;
+		    }
+	}
+	&.success{
+		background-color: #0ec254;
+		.description ion-icon{
+			color:white;
+		}
+		.top-header a{
+			color: white;
+			font-size: 18px;
+		    text-decoration: none;
+		    font-weight: 700;
+		    }
+	}
+	&.warning{
+		background-color: #ffce00;
+		.top-header a{
+			color: black;
+			font-size: 18px;
+		    text-decoration: none;
+		    font-weight: 700;
+		}
+		.description{
+			ion-icon{
+				color:black;
+			}
+			
+		}
+	}
+	&.purple{
+		background-color: #7e57ff;
+		.description ion-icon{
+			color:white;
+		}
+		.top-header a{
+			color:white;
+			font-size: 18px;
+		    text-decoration: none;
+		    font-weight: 700;
+		}
+	}
+	&.default{
+		background-color: white;
+		.top-header a{
+			font-size: 18px;
+		    text-decoration: none;
+		    font-weight: 700;
+			color: black;
+		}
+		.description ion-icon{
+				color:black;
+			
+			
+		}
+	}
+}
+
+.description{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 48px);
+    color: black;
+    ion-icon{
+    	color: black;
+    	font-size: 190px;
+    }
+    
+    
+    
+}

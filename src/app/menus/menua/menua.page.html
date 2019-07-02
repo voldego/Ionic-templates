@@ -1,0 +1,290 @@
+<ion-content>
+	<ion-slides pager="true">
+      <ion-slide>
+        <div class="main default" >
+        	<div class="overlay" *ngIf="menu1" (click)="togglem1()"></div>
+			<div class="top-header">
+				<ion-icon name="arrow-back" [routerLink]="['/home']"></ion-icon>
+		    	<ion-icon name="menu" (click)="togglem1()"></ion-icon>
+			</div>
+			<div class="description">
+				<h5>Magnificent Premium UI Kit for Your Startup.</h5>
+				<p>Make your wonderful product today.</p>
+				<img src="assets/images/mob-ex.png" alt="">
+				<ion-fab-button color="dark" (click)="togglem1()">
+				      <ion-icon name="apps" ></ion-icon>
+				</ion-fab-button>
+			</div>
+		</div>
+		<div *ngIf="menu1" class="menu1">
+			<ul>
+				<li>Home</li>
+				<li>Market</li>
+				<li>Medias</li>
+				<li>Messages</li>
+				<li>Settings</li>
+				<li class="close">
+					<ion-fab-button color="dark" (click)="togglem1()">
+				      <ion-icon name="close" ></ion-icon>
+					</ion-fab-button>
+				</li>
+			</ul>
+		</div>
+     </ion-slide>
+     <ion-slide style="background-color: #ffce00">
+        <div class="main default" [ngClass]="transcale1 ? 'transcale1' : ''">
+        	<div class="overlay2" *ngIf="menu2" (click)="togglem2()"></div>
+			<div class="top-header">
+				<ion-icon name="arrow-back" [routerLink]="['/home']"></ion-icon>
+		    	<ion-icon name="menu" (click)="togglem2()"></ion-icon>
+			</div>
+			<div class="description">
+				<h5>Magnificent Premium UI Kit for Your Startup.</h5>
+				<p>Make your wonderful product today.</p>
+				<img src="assets/images/mob-ex.png" alt="">
+				<ion-fab-button color="dark" (click)="togglem2()">
+				      <ion-icon name="apps" ></ion-icon>
+				</ion-fab-button>
+			</div>
+		</div>
+		<div *ngIf="menu2" class="menu2">
+			<ul>
+				<li>Home</li>
+				<li>Market</li>
+				<li>Medias</li>
+				<li>Messages</li>
+				<li>Settings</li>
+				<li class="close">
+					<ion-fab-button color="dark" (click)="togglem2()">
+				      <ion-icon name="arrow-back" ></ion-icon>
+					</ion-fab-button>
+				</li>
+			</ul>
+		</div>
+     </ion-slide>
+     <ion-slide >
+        <div class="main default" [ngClass]="trans1 ? 'trans1' : ''">
+        	<div class="overlay2" *ngIf="menu3" (click)="togglem3()"></div>
+			<div class="top-header">
+				<ion-icon name="arrow-back" [routerLink]="['/home']"></ion-icon>
+		    	<ion-icon name="menu" (click)="togglem3()"></ion-icon>
+			</div>
+			<div class="description">
+				<h5>Magnificent Premium UI Kit for Your Startup.</h5>
+				<p>Make your wonderful product today.</p>
+				<img src="assets/images/mob-ex.png" alt="">
+				<ion-fab-button color="dark" (click)="togglem3()">
+				      <ion-icon name="apps" ></ion-icon>
+				</ion-fab-button>
+			</div>
+		</div>
+		<div *ngIf="menu3" class="menu3">
+			<ul>
+				<li class="close">
+					<ion-fab-button color="light" (click)="togglem3()">
+				      <ion-icon name="arrow-back" ></ion-icon>
+					</ion-fab-button>
+				</li>
+				<li><ion-icon name="home" ></ion-icon><span>Home</span></li>
+				<li><ion-icon name="cart" ></ion-icon><span>Market</span></li>
+				<li><ion-icon name="musical-notes" ></ion-icon><span>Medias</span></li>
+				<li><ion-icon name="mail" ></ion-icon><span>Messages</span></li>
+				<li><ion-icon name="settings" ></ion-icon><span>Settings</span></li>
+				
+			</ul>
+		</div>
+     </ion-slide>
+
+     <ion-slide >
+        <div class="main default" [ngClass]="trans2 ? 'trans2' : ''">
+        	<div class="overlay2" *ngIf="menu4" (click)="togglem4()"></div>
+			<div class="top-header">
+				<ion-icon name="arrow-back" [routerLink]="['/home']"></ion-icon>
+		    	<ion-icon name="menu" (click)="togglem4()"></ion-icon>
+			</div>
+			<div class="description">
+				<h5>Magnificent Premium UI Kit for Your Startup.</h5>
+				<p>Make your wonderful product today.</p>
+				<img src="assets/images/mob-ex.png" alt="">
+				<ion-fab-button color="dark" (click)="togglem4()">
+				      <ion-icon name="apps" ></ion-icon>
+				</ion-fab-button>
+			</div>
+		</div>
+		<div *ngIf="menu4" class="menu4">
+			<ul>
+				<li><ion-icon name="home" ></ion-icon></li>
+				<li><ion-icon name="cart" ></ion-icon></li>
+				<li><ion-icon name="musical-notes" ></ion-icon></li>
+				<li><ion-icon name="mail" ></ion-icon></li>
+				<li><ion-icon name="settings" ></ion-icon></li>
+				<li class="close">
+					<ion-fab-button color="light" (click)="togglem4()">
+				      <ion-icon name="arrow-back" ></ion-icon>
+					</ion-fab-button>
+				</li>
+			</ul>
+		</div>
+     </ion-slide>
+     <ion-slide>
+        <div class="main default" >
+        	<div class="overlay" *ngIf="menu5" (click)="togglem5()"></div>
+			<div class="top-header">
+				<ion-icon name="arrow-back" [routerLink]="['/home']"></ion-icon>
+		    	<ion-icon name="menu" (click)="togglem5()"></ion-icon>
+			</div>
+			<div class="description">
+				<h5>Magnificent Premium UI Kit for Your Startup.</h5>
+				<p>Make your wonderful product today.</p>
+				<img src="assets/images/mob-ex.png" alt="">
+				<ion-fab-button color="dark" (click)="togglem5()">
+				      <ion-icon name="apps" ></ion-icon>
+				</ion-fab-button>
+			</div>
+		</div>
+		<div *ngIf="menu5" class="menu5">
+			<ul>
+				<li>Home</li>
+				<li>Market</li>
+				<li>Medias</li>
+				<li>Messages</li>
+				<li>Settings</li>
+				<li class="close">
+					<ion-fab-button color="light" (click)="togglem5()">
+				      <ion-icon name="close" ></ion-icon>
+					</ion-fab-button>
+				</li>
+			</ul>
+		</div>
+     </ion-slide>
+     <ion-slide>
+        <div class="main default" >
+        	<div class="overlay" *ngIf="menu6" (click)="togglem6()"></div>
+			<div class="top-header">
+				<ion-icon name="arrow-back" [routerLink]="['/home']"></ion-icon>
+		    	<ion-icon name="menu" (click)="togglem6()"></ion-icon>
+			</div>
+			<div class="description">
+				<h5>Magnificent Premium UI Kit for Your Startup.</h5>
+				<p>Make your wonderful product today.</p>
+				<img src="assets/images/mob-ex.png" alt="">
+				<ion-fab-button color="dark" (click)="togglem6()">
+				      <ion-icon name="apps" ></ion-icon>
+				</ion-fab-button>
+			</div>
+		</div>
+		<div *ngIf="menu6" class="menu6">
+			<ul>
+				<li>Home</li>
+				<li>Market</li>
+				<li>Medias</li>
+				<li>Messages</li>
+				<li>Settings</li>
+				<li class="close">
+					<ion-fab-button color="light" (click)="togglem6()">
+				      <ion-icon name="close" ></ion-icon>
+					</ion-fab-button>
+				</li>
+			</ul>
+		</div>
+     </ion-slide>
+      <ion-slide >
+        <div class="main default" [ngClass]="blur1 ? 'blur1' : ''">
+        	<div class="overlay2" *ngIf="menu7" (click)="togglem7()"></div>
+			<div class="top-header">
+				<ion-icon name="arrow-back" [routerLink]="['/home']"></ion-icon>
+		    	<ion-icon name="menu" (click)="togglem7()"></ion-icon>
+			</div>
+			<div class="description">
+				<h5>Magnificent Premium UI Kit for Your Startup.</h5>
+				<p>Make your wonderful product today.</p>
+				<img src="assets/images/mob-ex.png" alt="">
+				<ion-fab-button color="dark" (click)="togglem7()">
+				      <ion-icon name="apps" ></ion-icon>
+				</ion-fab-button>
+			</div>
+		</div>
+		<div class="overlaym" *ngIf="menu7"></div>
+		<div *ngIf="menu7" class="menu3 blur-back">
+
+			<ul>
+				<li class="close">
+					<ion-fab-button color="dark" (click)="togglem7()">
+				      <ion-icon name="arrow-back" ></ion-icon>
+					</ion-fab-button>
+				</li>
+				<li><ion-icon name="home" ></ion-icon><span>Home</span></li>
+				<li><ion-icon name="cart" ></ion-icon><span>Market</span></li>
+				<li><ion-icon name="musical-notes" ></ion-icon><span>Medias</span></li>
+				<li><ion-icon name="mail" ></ion-icon><span>Messages</span></li>
+				<li><ion-icon name="settings" ></ion-icon><span>Settings</span></li>
+				
+			</ul>
+		</div>
+     </ion-slide>
+     <ion-slide>
+        <div class="main default" >
+        	<div class="overlay" *ngIf="menu8" (click)="togglem8()"></div>
+			<div class="top-header">
+				<ion-icon name="arrow-back" [routerLink]="['/home']"></ion-icon>
+		    	<ion-icon name="menu" (click)="togglem8()"></ion-icon>
+			</div>
+			<div class="description">
+				<h5>Magnificent Premium UI Kit for Your Startup.</h5>
+				<p>Make your wonderful product today.</p>
+				<img src="assets/images/mob-ex.png" alt="">
+				<ion-fab-button color="dark" (click)="togglem8()">
+				      <ion-icon name="apps" ></ion-icon>
+				</ion-fab-button>
+			</div>
+		</div>
+		<div *ngIf="menu8" class="menu8">
+			<ul>
+				<li class="active">Home</li>
+				<li>Market</li>
+				<li>Medias</li>
+				<li>Feed</li>
+				<li>Messages</li>
+				<li>Settings</li>
+				<li class="close">
+					<ion-fab-button color="dark" (click)="togglem8()">
+				      <ion-icon name="close" ></ion-icon>
+					</ion-fab-button>
+				</li>
+			</ul>
+		</div>
+     </ion-slide>
+     <ion-slide>
+        <div class="main default" >
+        	<div class="overlay" *ngIf="menu9" (click)="togglem9()"></div>
+			<div class="top-header">
+				<ion-icon name="arrow-back" [routerLink]="['/home']"></ion-icon>
+		    	<ion-icon name="menu" (click)="togglem9()"></ion-icon>
+			</div>
+			<div class="description">
+				<h5>Magnificent Premium UI Kit for Your Startup.</h5>
+				<p>Make your wonderful product today.</p>
+				<img src="assets/images/mob-ex.png" alt="">
+				<ion-fab-button color="dark" (click)="togglem9()">
+				      <ion-icon name="apps" ></ion-icon>
+				</ion-fab-button>
+			</div>
+		</div>
+		<div *ngIf="menu9" class="menu8 icons">
+			<ul>
+				<li class="active"><ion-icon name="home" ></ion-icon><span>Home</span></li>
+				<li><ion-icon name="cart" ></ion-icon><span>Market</span></li>
+				<li><ion-icon name="musical-notes" ></ion-icon><span>Medias</span></li>
+				<li><ion-icon name="paper" ></ion-icon><span>Feed</span></li>
+				<li><ion-icon name="mail" ></ion-icon><span>Messages</span></li>
+				<li><ion-icon name="settings" ></ion-icon><span>Settings</span></li>
+				<li class="close">
+					<ion-fab-button color="dark" (click)="togglem9()">
+				      <ion-icon name="close" ></ion-icon>
+					</ion-fab-button>
+				</li>
+			</ul>
+		</div>
+     </ion-slide>
+ </ion-slides>
+</ion-content>
